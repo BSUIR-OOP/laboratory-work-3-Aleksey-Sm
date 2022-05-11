@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:OOPLab3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <Canvas>
+        <ComboBox SelectedIndex="0" x:Name="CBChooseVehicle" Width="170" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="10">
+        </ComboBox>
+        <Button Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="162" Canvas.Left="14" Canvas.Top="54" Click="Button_Click"/>
+    </Canvas>
 </Window>
