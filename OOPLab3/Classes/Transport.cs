@@ -24,6 +24,9 @@ namespace OOPLab3.Classes
         public void SpeedDown(int delta)
             => CurrentSpeed = CurrentSpeed - delta > 0 ? CurrentSpeed - delta : 0;
 
+        public string ShowInfo()
+            => $"Name: {PetName}; Current speed: {CurrentSpeed}; Current count of passengers: {CurrentCountOfPassengers}; Power: {Power}";
+
         public abstract string Move();
     }
 }
